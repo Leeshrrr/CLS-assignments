@@ -19,7 +19,7 @@ strong {
 .part01 {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     background-color: white;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 50px;
     font-size: 25px;
