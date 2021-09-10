@@ -1,0 +1,57 @@
+body {
+    background-image: url(assets/rainbow.jpeg);
+    font-family: "Oswald", sans-serif;
+}
+
+.title {
+    margin: 70px;
+    border: indigo 5px solid;
+    background-color: hotpink;
+    box-shadow: brown 6px 6px 0px;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    color: aqua;
+    text-align: center;
+}
+
+.text {
+    margin: 20px 20px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.a {
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+    letter-spacing: 6px;
+}
+
+.b {
+    word-spacing: 10px;
+}
+
+.c {
+    text-transform: uppercase;
+}
+
+img {
+    margin: 100px 100px 0;
+    rotate: -20deg;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+}
+
+img:hover {
+    -webkit-transform: rotate(360deg);
+}
+
+button {
+    background-color: chocolate;
+    width: 100px;
+    height: 60px;
+    margin: 0 50px 0;
+}
+
+button:hover {
+    background-color: darkgreen;
+}

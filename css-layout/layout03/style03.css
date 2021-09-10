@@ -1,0 +1,83 @@
+html {
+  font-family: "Inter", sans-serif;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 40px;
+  margin: 0;
+  list-style: none;
+}
+
+h1 {
+  margin: 50px 20px 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 5px 0 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card01 {
+  background: white;
+  border: 1px black solid;
+  border-radius: 10px;
+
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 400;
+  box-shadow: 1px 1px 1px rgb(209, 209, 209);
+}
+
+#r {
+  transform: rotate(-20deg);
+  position: relative;
+  top: 120px;
+  left: -120px;
+}
+
+.card04 {
+  background: white;
+  border: 2px blue solid;
+  border-radius: 10px;
+
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 400;
+  box-shadow: 1px 1px 1px rgb(209, 209, 209);
+}
+
+.card04 h2 {
+  color: rgb(221, 17, 126);
+}
+
+.card05 {
+  background: rgb(179, 179, 179);
+  border-radius: 10px;
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
