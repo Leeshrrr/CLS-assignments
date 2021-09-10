@@ -46,7 +46,7 @@ strong {
 }
 
 .part02 {
-    border: greenyellow 3px solid;
+    /* border: greenyellow 3px solid; */
     background-color: white;
     grid-column: 1 / 2;
     height: 100%;
