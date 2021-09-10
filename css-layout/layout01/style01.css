@@ -1,23 +1,82 @@
 body {
-  margin: 0;
-  font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    overflow: auto
+}
+
+strong {
+    font-weight: 600;
 }
 
 .container {
-  display: grid;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    ;
 }
 
 .part01 {
-  border: 1px solid black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.b {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+}
+
+.c {
+    float: left;
+    margin-left: 20px;
+}
+
+.d {
+    color: rgb(255, 29, 142);
+    text-decoration-style: solid;
+    text-decoration-line: underline;
 }
 
 .part02 {
-  border: 1px solid black;
+    border: greenyellow 3px solid;
+    background-color: white;
+    grid-column: 1 / 2;
+    height: 100%;
 }
 
 .part02 p {
-  border: 1px solid black;
+    padding: 350px 15%;
+    font-size: 45px;
+    font-weight: 600;
+    height: calc(100% - 50px);
 }
 
 .part03 {
+    background-color: rgb(100, 100, 100);
+    grid-column: 2 / 3;
+    height: 100%;
+    padding: 200px 13%;
+    color: white;
+}
+
+.part03 h1 {
+    font-weight: 500;
+    margin: 0 0 50px;
+}
+
+.part03 p {
+    font-weight: 300;
+    margin: 0 0 30px;
+}
+
+.a {
+    color: rgb(141, 141, 199);
 }
