@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
     font-family: "Inter", sans-serif;
     overflow: auto
 }
@@ -13,7 +12,7 @@ strong {
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
-    ;
+    height: 600px;
 }
 
 .part01 {
@@ -56,13 +55,13 @@ strong {
     padding: 350px 15%;
     font-size: 45px;
     font-weight: 600;
-    height: calc(100% - 50px);
+    height: 600px;
 }
 
 .part03 {
     background-color: rgb(100, 100, 100);
     grid-column: 2 / 3;
-    height: 100%;
+    height: 600px;
     padding: 200px 13%;
     color: white;
 }
